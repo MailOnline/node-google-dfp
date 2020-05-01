@@ -11,10 +11,13 @@
   },
   "dependencies": {
     "googleapis": "^4.0.0",
-    "soap": "^0.13.0"
+    "soap": "^0.13.0",
+    "snyk": "^1.316.1"
   },
   "scripts": {
-    "test": "grunt all"
+    "test": "grunt all",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "ShinyAds",
   "contributors": [
@@ -37,5 +40,6 @@
     "DFP",
     "DoubleClick",
     "adserver"
-  ]
+  ],
+  "snyk": true
 }
