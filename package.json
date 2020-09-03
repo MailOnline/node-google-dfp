@@ -10,7 +10,7 @@
     "jasmine-node": "1.14.5"
   },
   "dependencies": {
-    "googleapis": "^4.0.0",
+    "googleapis": "^49.0.0",
     "soap": "^0.13.0"
   },
   "scripts": {
